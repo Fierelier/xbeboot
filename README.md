@@ -6,7 +6,9 @@ xbeboot is noteworthy for not only allowing booting from DVD/CD and Hard Drive, 
 
 Status
 ------
-xbeboot has full graphics support and can boot into the Linux kernel, however it doesn't seem to correctly pass kernel command line arguments into the kernel quite yet. Also imagebld doesn't work so kernels can't be compiled into the .xbe quite yet
+**2025:** i got it to compile but i have no idea if any of this works
+
+**2019:** xbeboot has full graphics support and can boot into the Linux kernel, however it doesn't seem to correctly pass kernel command line arguments into the kernel quite yet. Also imagebld doesn't work so kernels can't be compiled into the .xbe quite yet
 
 TODO
 ----
