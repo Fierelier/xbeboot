@@ -29,6 +29,6 @@ You will need the following tools:
 - lld
 
 ### Download & Build xbeboot
-    git clone https://github.com/Xbox-Linux-2/xbeboot.git
+    git clone https://github.com/Fierelier/xbeboot.git
     cd xbeboot
     make all
