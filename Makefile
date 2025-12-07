@@ -8,10 +8,10 @@ endif
 
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Linux)
-LD           = ld.lld-8 -flavor link
-AS           = clang-8
-CC           = clang-8
-CXX          = clang++-8
+LD           = ld.lld -flavor link /SAFESEH:NO
+AS           = clang
+CC           = clang
+CXX          = clang++
 CGC          = $(TOPDIR)/tools/cg/linux/cgc
 endif
 
